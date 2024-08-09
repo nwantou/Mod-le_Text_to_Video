@@ -55,4 +55,5 @@ def create_image_with_moving_shape(size,frame_num,shape,direction):
   img=Image.new('RGB',size,color=(255,255,255))
 
 #creaet a drawing object
-  draw=ImageDraw.Draw(img)
+  draw=ImageDraw.Draw(img) 
+#
